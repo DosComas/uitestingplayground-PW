@@ -1,6 +1,6 @@
 import { test as setup, expect } from "@playwright/test";
 import { storageState } from "./playwright.config";
-import credentials from "./.auth/credentials.json";
+import credentials from "./auth-data/credentials.json";
 
 const userName = credentials.userName;
 const password = credentials.password;

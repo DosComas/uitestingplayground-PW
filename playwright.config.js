@@ -1,7 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
 import path from "path";
 
-export const storageState = path.join(__dirname, ".auth/state.json");
+export const storageState = path.join(__dirname, "auth-data/state.json");
 
 /**
  * Read environment variables from file.
